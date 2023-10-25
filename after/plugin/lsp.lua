@@ -18,7 +18,8 @@ require('mason-lspconfig').setup({
   "mypy",
   "pylsp",
   "html",
-  "cssls"},
+  "cssls",
+  "clangd"},
   handlers = {
     lsp_zero.default_setup,
   },
