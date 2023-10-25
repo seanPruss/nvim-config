@@ -16,7 +16,8 @@ return require('packer').startup(function(use)
     use('theprimeagen/harpoon')
     use('mbbill/undotree')
     use('tpope/vim-fugitive')
-    use { "zootedb0t/citruszest.nvim" }
+    use('zootedb0t/citruszest.nvim')
+    use('theprimeagen/vim-be-good')
     use {
         'VonHeikemen/lsp-zero.nvim',
         branch = 'v3.x',
