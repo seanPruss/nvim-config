@@ -11,18 +11,18 @@ end)
 
 require('mason').setup({})
 require('mason-lspconfig').setup({
-  ensure_installed = {"rust_analyzer",
-  "tsserver",
-  "pyright",
-  "java_language_server",
-  "mypy",
-  "pylsp",
-  "html",
-  "cssls",
-  "clangd"},
-  handlers = {
-    lsp_zero.default_setup,
-  },
+    ensure_installed = {"rust_analyzer",
+    "tsserver",
+    "pyright",
+    "java_language_server",
+    "mypy",
+    "pylsp",
+    "html",
+    "cssls",
+    "clangd"},
+    handlers = {
+        lsp_zero.default_setup,
+    },
 })
 
 local cmp = require('cmp')
